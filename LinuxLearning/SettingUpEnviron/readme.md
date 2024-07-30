@@ -11,3 +11,15 @@
     - distrowatch.com
 
 - Business or career: Ubuntu and RedHat
+
+# Lesson 2 (installing linux)
+
+- Completed.
+- What did I do
+    - Install UTM
+    - Install ubuntu arm.iso
+    - Run via the UTM VM
+    - Go through installation and setup of ubuntu on the VM
+    - Installation
+    - Slight configuration 
+    - Ubuntu is running on my UTM VM
