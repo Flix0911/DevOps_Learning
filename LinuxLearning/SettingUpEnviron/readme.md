@@ -23,3 +23,12 @@
     - Installation
     - Slight configuration 
     - Ubuntu is running on my UTM VM
+
+# Lesson 3 (do after installing)
+
+- What did I do:
+    - Update the system sudo apt update
+        - This found everything that could be updated
+    - Then update - sudo apt full-upgrade
+        - Upgraded everything
+        - Upgraded device drivers for better performance
