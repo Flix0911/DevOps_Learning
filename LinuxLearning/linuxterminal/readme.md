@@ -52,3 +52,38 @@
     - they're the same
 - df
     - displays information about the file system and storage
+
+# Getting Help, Man Pages (man, type, help, apropos) Lesson 2
+- 'man' short for manual
+
+- man ls
+    - type h
+- to get out, q
+
+- ctrl + f ~ moves 1 window going toward the end
+- ctrl + b ~ moves 1 window going to the start
+
+- g ~ beginning
+- G ~ end
+
+- Find a match
+- type /string_argument
+    - ex /sort
+        - n to go to the next
+        - N to go back
+    -search backwards
+    - ?sort
+
+- 2 types of shell commands
+    - executable (have command pages)
+        - type ''
+    - shell command 
+        - type ''
+        - To learn more, you need to do help ''
+
+    - can get help as well doing
+        - 'command' --help
+
+- ifconfig
+    - sudo apt install net-tools
+    - searching all man pages
