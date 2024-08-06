@@ -92,3 +92,29 @@
 # Masting the terminal
 
 - Use the tab key for auto completion
+
+# Mastering the terminal ~ keyboard shortcuts
+
+- ctrl + l 
+    - clears screen
+
+- ctrl + d
+    - closes the terminal
+    - can type exit too
+
+- ctrl + a
+    - move to beginning of the line
+
+- ctrl + e
+    - move to the end of the line
+
+- ctrl + u
+    - deletes all characters before the cursor but cutting
+
+- ctrl + c
+    - interrupt process running in the terminal
+    - download a big file, and you need to stop it
+
+- ctrl + z
+    - pauses what is running
+    - to restart bg %1
