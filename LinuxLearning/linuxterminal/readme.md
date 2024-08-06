@@ -87,3 +87,8 @@
 - ifconfig
     - sudo apt install net-tools
     - searching all man pages
+
+
+# Masting the terminal
+
+- Use the tab key for auto completion
