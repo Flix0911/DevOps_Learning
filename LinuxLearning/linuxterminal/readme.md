@@ -118,3 +118,51 @@
 - ctrl + z
     - pauses what is running
     - to restart bg %1
+
+# Mastering the Terminal: Bash History
+
+- Bash shell starts in user's home directory
+- Number of commands controlled by env var call HISTFILESIZE
+    - run echo $HISTFILESIZE
+    - 2000 commands into the history file
+    - type 'history'
+        - Will see all commands
+    - 1 is oldest command
+    - highest number is newestecho 
+    - $echo $HISTSIZE
+        - 1000 commands in history
+        - File updated when user locked out
+
+- !(command)
+    - run the last command
+
+- !(command):(1st letter)
+    - will show what it did
+
+- ctrl + p 
+    - previous command
+
+- ctrl + n
+    - walk forward
+
+- recall mode ctrl + r
+    - ctrl + g ~ clear the search
+
+- remove history of command history
+    - history -c
+
+
+- HW
+- How do you leave no trace in your HIST
+
+- prefix with a space before the command
+    - " echo "hello world"
+
+- append history -d $(history 1)
+    - "echo "hello"; history -d $(history 1)
+
+- By setting flags to enable and siable history
+    - disable
+        - set +o history
+    - enable
+        - set -o history
